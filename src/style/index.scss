@@ -1,0 +1,33 @@
+html,
+body {
+  font: 14px/1.21 "Helvetica Neue", arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+  background-color: limegreen;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-table {
+  position: relative;
+  margin: 50px;
+  border: medium dashed green;
+  min-height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .card {
+    position: absolute;
+  }
+
+  .placeholder {
+    border: medium dashed green;
+    width: 90px;
+    height: 125px;
+  }
+}
